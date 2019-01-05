@@ -17,7 +17,7 @@
     </div>
 
 <?php
-include('db.php');
+include('db/db.php');
 if(!$connection){
   die("DB connection failed");
 }
